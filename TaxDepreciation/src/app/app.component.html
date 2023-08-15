@@ -1,0 +1,79 @@
+<div class="container">
+  <h2>Manage Contacts</h2>
+  <div>
+    <div class="row mt-5">
+      <div class="col-lg-1">
+        <label class="form-label" style="font-size: 31px;">Search:</label>
+      </div>
+      <div class="col-lg-4">
+        <input type="text" class="form-control form-control-lg" placeholder="Type your search here" (input)="searchContact($event)"/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-2">
+        <button class="btn btn-primary mt-2" (click)="showForm=true">Create New</button>
+      </div>
+    </div>
+    <div class="form" *ngIf="showForm">
+      <form [formGroup]="contactForm" #form="ngForm" (ngSubmit)="submitForm(form)">
+        <div class="form-group">
+          <input type="text" class="form-control" formControlName="id" hidden>
+        </div>
+        <div class="form-group">
+          <label for="firstName">First Name</label>
+          <input type="text" class="form-control" formControlName="firstName" required>
+        </div>
+        <div class="form-group">
+          <label for="lastName">Last Name</label>
+          <input type="text" class="form-control" formControlName="lastName" required>
+        </div>
+        <div class="form-group">
+          <label for="company">Company Name</label>
+          <input type="text" class="form-control" formControlName="companyName">
+        </div>
+        <div class="form-group">
+          <label for="mobile">Mobile</label>
+          <input type="text" class="form-control" formControlName="mobile">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="text" class="form-control" formControlName="email">
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Submit</button>&nbsp;&nbsp;&nbsp;
+        <button  class="btn btn-primary mt-3" (click)="showForm=false">Cancel</button>
+      </form>
+  
+    </div>
+    <div class="row">
+      <table class="table mt-4" >
+          <thead>
+            <tr>
+              <th>Id</th>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Company</th>
+              <th>Mobile</th>
+              <th>Email</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of Contacts">
+              <td>{{item.id}}</td>
+              <td>{{ item?.firstName }}</td>
+              <td>{{ item?.lastName }}</td>
+              <td>{{ item?.companyName }}</td>
+              <td>{{ item?.mobile }}</td>
+              <td>{{ item?.email }}</td>
+              <td>
+                <button class="btn btn-sm btn-primary" (click)="editItem(item)">Edit</button>&nbsp;&nbsp;&nbsp;
+                <button class="btn btn-sm btn-danger" (click)="deleteItem(item)">Delete</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+    
+  </div>
+  
+</div>
