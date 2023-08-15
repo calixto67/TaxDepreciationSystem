@@ -1,0 +1,9 @@
+C:\Users\calixto.g_zento\source\repos\BMT Assessment\BMTTaxDepreciationAPI\TaxDepreciationSystem.Backend.Repository\bin\Debug\netstandard2.0\TaxDepreciationSystem.Backend.Repository.deps.json
+C:\Users\calixto.g_zento\source\repos\BMT Assessment\BMTTaxDepreciationAPI\TaxDepreciationSystem.Backend.Repository\bin\Debug\netstandard2.0\TaxDepreciationSystem.Backend.Repository.dll
+C:\Users\calixto.g_zento\source\repos\BMT Assessment\BMTTaxDepreciationAPI\TaxDepreciationSystem.Backend.Repository\bin\Debug\netstandard2.0\TaxDepreciationSystem.Backend.Repository.pdb
+C:\Users\calixto.g_zento\source\repos\BMT Assessment\BMTTaxDepreciationAPI\TaxDepreciationSystem.Backend.Repository\obj\Debug\netstandard2.0\TaxDepreciationSystem.Backend.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\calixto.g_zento\source\repos\BMT Assessment\BMTTaxDepreciationAPI\TaxDepreciationSystem.Backend.Repository\obj\Debug\netstandard2.0\TaxDepreciationSystem.Backend.Repository.AssemblyInfoInputs.cache
+C:\Users\calixto.g_zento\source\repos\BMT Assessment\BMTTaxDepreciationAPI\TaxDepreciationSystem.Backend.Repository\obj\Debug\netstandard2.0\TaxDepreciationSystem.Backend.Repository.AssemblyInfo.cs
+C:\Users\calixto.g_zento\source\repos\BMT Assessment\BMTTaxDepreciationAPI\TaxDepreciationSystem.Backend.Repository\obj\Debug\netstandard2.0\TaxDepreciationSystem.Backend.Repository.csproj.CoreCompileInputs.cache
+C:\Users\calixto.g_zento\source\repos\BMT Assessment\BMTTaxDepreciationAPI\TaxDepreciationSystem.Backend.Repository\obj\Debug\netstandard2.0\TaxDepreciationSystem.Backend.Repository.dll
+C:\Users\calixto.g_zento\source\repos\BMT Assessment\BMTTaxDepreciationAPI\TaxDepreciationSystem.Backend.Repository\obj\Debug\netstandard2.0\TaxDepreciationSystem.Backend.Repository.pdb
