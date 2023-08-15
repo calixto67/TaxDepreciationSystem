@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxDepreciationSystem.Backend.Api", "TaxDepreciationSystemAPI\TaxDepreciationSystem.Backend.Api.csproj", "{68BED626-5904-42F0-98E0-6FE190F224B1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B6FE1941-417A-40A1-8027-9392FB674A25} = {B6FE1941-417A-40A1-8027-9392FB674A25}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxDepreciationSystem.Backend.Repository", "TaxDepreciationSystem.Backend.Repository\TaxDepreciationSystem.Backend.Repository.csproj", "{B6FE1941-417A-40A1-8027-9392FB674A25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68BED626-5904-42F0-98E0-6FE190F224B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68BED626-5904-42F0-98E0-6FE190F224B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68BED626-5904-42F0-98E0-6FE190F224B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68BED626-5904-42F0-98E0-6FE190F224B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6FE1941-417A-40A1-8027-9392FB674A25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6FE1941-417A-40A1-8027-9392FB674A25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6FE1941-417A-40A1-8027-9392FB674A25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6FE1941-417A-40A1-8027-9392FB674A25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B0656A2-5751-4956-89DE-4267D6BB82CE}
+	EndGlobalSection
+EndGlobal
