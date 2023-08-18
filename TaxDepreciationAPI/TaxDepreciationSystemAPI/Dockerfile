@@ -10,16 +10,16 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
 WORKDIR /src
-COPY ["BMTTaxDepreciationAPI/BMTTaxDepreciationAPI.csproj", "BMTTaxDepreciationAPI/"]
-RUN dotnet restore "BMTTaxDepreciationAPI/BMTTaxDepreciationAPI.csproj"
+COPY ["TaxDepreciationSystemAPI/TaxDepreciationSystemAPI.csproj", "TaxDepreciationSystemAPI/"]
+RUN dotnet restore "TaxDepreciationSystemAPI/TaxDepreciationSystemAPI.csproj"
 COPY . .
-WORKDIR "/src/BMTTaxDepreciationAPI"
-RUN dotnet build "BMTTaxDepreciationAPI.csproj" -c Release -o /app/build
+WORKDIR "/src/TaxDepreciationSystemAPI"
+RUN dotnet build "TaxDepreciationSystemAPI.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "BMTTaxDepreciationAPI.csproj" -c Release -o /app/publish
+RUN dotnet publish "TaxDepreciationSystemAPI.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "BMTTaxDepreciationAPI.dll"]
+ENTRYPOINT ["dotnet", "TaxDepreciationSystemAPI.dll"]

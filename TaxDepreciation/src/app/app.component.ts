@@ -11,7 +11,7 @@ import { FormBuilder, FormControl, FormGroup, Validators } from "@angular/forms"
 export class AppComponent implements OnInit {
   
   Contacts: Array<Contact> = [];
-  title = 'BMTTaxDepreciation';
+  title = 'TaxDepreciationSystem';
   contactForm!: FormGroup;
   contact!: Contact;
   editingItem: Contact | null = null;

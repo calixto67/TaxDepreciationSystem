@@ -1,6 +1,6 @@
 using System;
 
-namespace BMTTaxDepreciationAPI
+namespace TaxDepreciationSystemAPI
 {
     public class WeatherForecast
     {

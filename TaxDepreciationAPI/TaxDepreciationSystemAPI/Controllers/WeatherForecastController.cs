@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BMTTaxDepreciationAPI.Controllers
+namespace TaxDepreciationSystemAPI.Controllers
 {
     [ApiController]
     [Route("[controller]")]

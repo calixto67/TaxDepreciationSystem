@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\calixto.g_zento\\source\\repos\\BMT Assessment\\BMTTaxDepreciationAPI\\TaxDepreciationSystem.Backend.Repository\\TaxDepreciationSystem.Backend.Repository.csproj": {}
+    "C:\\Users\\calixto.g\\source\\repos\\Assessment\\TaxDepreciationSystemAPI\\TaxDepreciationSystem.Backend.Repository\\TaxDepreciationSystem.Backend.Repository.csproj": {}
   },
   "projects": {
-    "C:\\Users\\calixto.g_zento\\source\\repos\\BMT Assessment\\BMTTaxDepreciationAPI\\TaxDepreciationSystem.Backend.Repository\\TaxDepreciationSystem.Backend.Repository.csproj": {
+    "C:\\Users\\calixto.g\\source\\repos\\Assessment\\TaxDepreciationSystemAPI\\TaxDepreciationSystem.Backend.Repository\\TaxDepreciationSystem.Backend.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\calixto.g_zento\\source\\repos\\BMT Assessment\\BMTTaxDepreciationAPI\\TaxDepreciationSystem.Backend.Repository\\TaxDepreciationSystem.Backend.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\calixto.g\\source\\repos\\Assessment\\TaxDepreciationSystemAPI\\TaxDepreciationSystem.Backend.Repository\\TaxDepreciationSystem.Backend.Repository.csproj",
         "projectName": "TaxDepreciationSystem.Backend.Repository",
-        "projectPath": "C:\\Users\\calixto.g_zento\\source\\repos\\BMT Assessment\\BMTTaxDepreciationAPI\\TaxDepreciationSystem.Backend.Repository\\TaxDepreciationSystem.Backend.Repository.csproj",
-        "packagesPath": "C:\\Users\\calixto.g_zento\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\calixto.g_zento\\source\\repos\\BMT Assessment\\BMTTaxDepreciationAPI\\TaxDepreciationSystem.Backend.Repository\\obj\\",
+        "projectPath": "C:\\Users\\calixto.g\\source\\repos\\Assessment\\TaxDepreciationSystemAPI\\TaxDepreciationSystem.Backend.Repository\\TaxDepreciationSystem.Backend.Repository.csproj",
+        "packagesPath": "C:\\Users\\calixto.g\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\calixto.g\\source\\repos\\Assessment\\TaxDepreciationSystemAPI\\TaxDepreciationSystem.Backend.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\calixto.g_zento\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\calixto.g\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

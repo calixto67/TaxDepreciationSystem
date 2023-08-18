@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using static BMTTaxDepreciation.Backend.Api.Common.Enums;
+using static TaxDepreciationSystem.Backend.Api.Common.Enums;
 
-namespace BMTTaxDepreciation.Backend.Api.Models
+namespace TaxDepreciationSystem.Backend.Api.Models
 {
     public class ApiResponse
     {

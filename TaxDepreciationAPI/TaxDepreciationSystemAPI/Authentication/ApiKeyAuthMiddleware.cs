@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BMTTaxDepreciation.Backend.Api.Authentication
+namespace TaxDepreciationSystem.Backend.Api.Authentication
 {
     public class ApiKeyAuthMiddleware
     {

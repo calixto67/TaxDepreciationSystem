@@ -1,4 +1,4 @@
-using BMTTaxDepreciation.Backend.Api.Authentication;
+using TaxDepreciationSystem.Backend.Api.Authentication;
 using TaxDepreciationSystem.Backend.Repository;
 using TaxDepreciationSystem.Backend.Repository.Generic_Repository;
 using TaxDepreciationSystem.Backend.Repository.Interfaces;
@@ -18,7 +18,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BMTTaxDepreciationAPI
+namespace TaxDepreciationSystemAPI
 {
     public class Startup
     {

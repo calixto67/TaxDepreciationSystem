@@ -1,16 +1,16 @@
-﻿using BMTTaxDepreciation.Backend.Api.Authentication;
-using BMTTaxDepreciation.Backend.Api.Models;
+﻿using TaxDepreciationSystem.Backend.Api.Authentication;
+using TaxDepreciationSystem.Backend.Api.Models;
 using TaxDepreciationSystem.Backend.Repository.Interfaces;
 using TaxDepreciationSystem.Backend.Repository.Models;
-using BMTTaxDepreciationAPI.Models;
+using TaxDepreciationSystemAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using static BMTTaxDepreciation.Backend.Api.Common.Enums;
+using static TaxDepreciationSystem.Backend.Api.Common.Enums;
 
-namespace BMTTaxDepreciationAPI.Controllers {
+namespace TaxDepreciationSystemAPI.Controllers {
     [Route("api/v1/contact")]
     [ApiController]
     [ServiceFilter(typeof(ApiKeyAuthFilter))]
